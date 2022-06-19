@@ -21,7 +21,7 @@ for z in range(5):
     fine, out = _check(str(z))
     if fine:
         subprocess.Popen(
-            [sys.executable, "-m", "Fenix", out[0], out[1], out[2], out[3], out[4], n],
+            [sys.executable, "-m", "Fenixer", out[0], out[1], out[2], out[3], out[4], n],
             stdin=None,
             stderr=None,
             stdout=None,
